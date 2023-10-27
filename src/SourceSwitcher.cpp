@@ -14,7 +14,7 @@ static void cb_message(GstBus *bus,
         GError *err = NULL;
         gchar *dbg_info = NULL;
         gst_message_parse_error(message, &err, &dbg_info);
-        g_print(err->message);
+        g_print("%s", err->message);
         switcher->Stop();
         break;
     }

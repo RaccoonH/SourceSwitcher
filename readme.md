@@ -2,7 +2,7 @@
 The application switches sources from RTSP to file and back and renders it on screen.
 
 ## Build
-It uses cmake  
+It uses cmake, you can use build.sh file for build.    
 ### Requirements:
 1. gstreamer  
 2. cmake >= 3.16
